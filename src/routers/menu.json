@@ -1,0 +1,55 @@
+{
+	"results": {
+		"menu": [
+			{
+				"id": 1,
+				"title": "4 Сезона",
+				"compound": "колбаски, пепперони, халапенью",
+				"img": "https://joyspizza.ru/public/images/1647971207132-4seasons1.jpg",
+				"price": 479,
+				"top": true
+			},
+			{
+				"id": 2,
+				"title": "Капрезе",
+				"compound": "томаты, сулугуни, моцарелла",
+				"img": "https://joyspizza.ru/public/images/1647971282096-1635752349322-JoysPizza029.jpg",
+				"price": 469,
+				"top": false
+			},
+			{
+				"id": 3,
+				"title": "4 Сыра",
+				"compound": "сыр Пармеза, сыр Дор-Блю, Сыр-Фета",
+				"img": "https://joyspizza.ru/public/images/1647971392069-4sira1.jpg",
+				"price": 449,
+				"top": true
+			},
+			{
+				"id": 4,
+				"title": "9 Сыров",
+				"compound": "фета, пармезан, чеддер, копченый сыр, сулугуни, мягкий сыр",
+				"img": "https://joyspizza.ru/public/images/1647971383298-9syrov1.jpg",
+				"price": 499,
+				"top": false
+			},
+			{
+				"id": 5,
+				"title": "Альфредо",
+				"compound": "бекон, ветчина, томаты, шампиньоны, моцарелла, фирменный сливочно-шпинатный соус",
+				"img": "https://joyspizza.ru/public/images/1647971400153-Alfredo1.jpg",
+				"price": 460,
+				"top": false
+			},
+			{
+				"id": 6,
+				"title": "Альфредо",
+				"compound": "бекон, томаты, кремчиз, моцарелло, сосус барбекю ",
+				"img": "https://joyspizza.ru/public/images/1647971463610-BarbekuKrim1.jpg",
+				"price": 569,
+				"top": true
+			}
+		]
+	},
+	"status": "ok"
+}

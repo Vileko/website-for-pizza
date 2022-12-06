@@ -1,0 +1,55 @@
+{
+	"results": {
+		"snacks": [
+			{
+				"id": "snacks_1",
+				"title": "Борщ",
+				"compound": "Свёкла, капуста, говядина, лук репчатый, морковь, говяжий бульон, вода, томатная паста, масло растительное, соль, уксус 9%, чеснок, сахар, лавровый лист, сметана.",
+				"img": "https://cdn.dostaevsky.ru/storage/dostaevsky/supy/borshh-large-rectangular-a635256ee24c4fa8bf405fbb27163036.jpeg",
+				"price": 325,
+				"top": false
+			},
+			{
+				"id": "snacks_2",
+				"title": "Грибной крем-суп",
+				"compound": "Шампиньоны свежие, куриный бульон, картофель свежий, репчатый лук, гренки, сливочное масло, вода, сливки, чеснок, соль, мускатный орех.",
+				"img": "https://cdn.dostaevsky.ru/storage/dostaevsky/supy/gribnojj-krem-sup-large-rectangular-f2893b5fc73e4847bfb13f41ac8a04d4.jpeg",
+				"price": 269,
+				"top": false
+			},
+			{
+				"id": "snacks_3",
+				"title": "Солянка мясная со сметаной",
+				"compound": "Куриное филе, охотничьи колбаски, куриный бульон, маслины черные, солёные огурцы, репчатый лук, томатная паста, сметана, чеснок, лимон, сахар, соль, черный молотый перец.",
+				"img": "https://cdn.dostaevsky.ru/storage/dostaevsky/supy/soljanka-mjasnaja-so-smetanojj-large-rectangular-62d7567ad0934f53af56a8c4cf73aa6c.jpeg",
+				"price": 259,
+				"top": true
+			},
+			{
+				"id": "snacks_4",
+				"title": "Гаспачо",
+				"compound": "Томатный сок, томаты резаные в с/с, огурец свежий, сахар, масло оливковое в/с первого холодного отжима, соль, базилик сухой, перец болгарский свежий.",
+				"img": "https://cdn.dostaevsky.ru/storage/dostaevsky/supy/gaspacho-large-rectangular-f0756e3549cd4d27abbe1b5710434fb4.jpeg",
+				"price": 499,
+				"top": true
+			},
+			{
+				"id": "snacks_5",
+				"title": "Рамен с говядиной",
+				"compound": "Говяжий бульон, яичная лапша, говядина, яйцо отварное, грибы шиитаке, лук порей.",
+				"img": "https://cdn.dostaevsky.ru/storage/dostaevsky/supy/ramen-s-govjadinojj-large-rectangular-9839231b8db54b9aa865784dba6a6298.jpeg",
+				"price": 319,
+				"top": true
+			},
+			{
+				"id": "snacks_6",
+				"title": "Финская уха с лососем",
+				"compound": "Лосось, картофель, помидоры, лук порей, укроп, сливки, бульон Хондаши, черный молотый перец, соль.",
+				"img": "https://cdn.dostaevsky.ru/storage/dostaevsky/supy/finskaja-ukha-s-lososem-large-rectangular-18369e9583df49b6b26a620f935e0a47.jpeg",
+				"price": 369,
+				"top": false
+			}
+		]
+	},
+	"status": "ok"
+}

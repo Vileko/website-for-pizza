@@ -1,0 +1,49 @@
+{
+	"results": {
+		"drinks": [
+			{
+				"id": "drinks_1",
+				"title": "Mirinda Mix-It «Клубника-Личи» 1 л",
+				"img": "https://cdn.dostaevsky.ru/storage/dostaevsky/napitki/mirinda-mix-it-klubnika-lichi-1-l-large-rectangular-ef56e77b9ac9437dbea06c869df5a6d0.jpeg",
+				"price": 179,
+                "top": true
+			},
+			{
+				"id": "drinks_2",
+				"title": "7 Up 1 л",
+				"img": "https://cdn.dostaevsky.ru/storage/dostaevsky/napitki/7-up-1-l-large-rectangular-e376be66e5174e149f3037f692b0fa1e.jpeg",
+				"price": 159,
+                "top": true
+			},
+			{
+				"id": "drinks_3",
+				"title": "Mirinda 1 л",
+				"img": "https://cdn.dostaevsky.ru/storage/dostaevsky/napitki/mirinda-1-l-large-rectangular-c915bcc58fee45e6882b8e1ede72f44b.jpeg",
+				"price": 129,
+                "top": true
+			},
+			{
+				"id": "drinks_4",
+				"title": "Pepsi 1 л",
+				"img": "https://cdn.dostaevsky.ru/storage/dostaevsky/napitki/pepsi-1-l-large-rectangular-cfca94dacc32408ea3f515f74c3d6491.jpeg",
+				"price": 119,
+                "top": false
+			},
+			{
+				"id": "drinks_5",
+				"title": "Вода «Аква Минерале» негазированная 0,5 л",
+				"img": "https://cdn.dostaevsky.ru/storage/dostaevsky/napitki/voda-akva-minerale-negazirovannaja-05-l-large-rectangular-6bbd0a384d8d422cae27330a01d95310.jpeg",
+				"price": 99,
+                "top": false
+			},
+			{
+				"id": "drinks_6",
+				"title": "Сок «Я» апельсин 0,97 л",
+				"img": "https://cdn.dostaevsky.ru/storage/dostaevsky/napitki/sok-ja-apelsin-097-l-large-rectangular-28e41b99deee4648a18a11069651865a.jpeg",
+				"price": 246,
+                "top": false
+			}
+		]
+	},
+	"status": "ok"
+}

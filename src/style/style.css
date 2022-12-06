@@ -1,0 +1,483 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* ==================> carusel <================== */
+
+
+.carusel_img-1 {
+    width: 100%;
+    height: 450px;
+    background: url("https://eda.ru/img/eda/c620x415/s1.eda.ru/StaticContent/Photos/120131085053/171027192707/p_O.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: #bcbcbc;
+    margin-top: 50px;
+}
+
+.carusel_img-2 {
+    width: 100%;
+    height: 450px;
+    background: url("https://e0.edimdoma.ru/data/posts/0002/1429/21429-ed4_wide.jpg?1631194036") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: #bcbcbc;
+    margin-top: 50px;
+}
+
+.carusel_img-3 {
+    width: 100%;
+    height: 450px;
+    background: url("https://eda.ru/img/eda/c620x415/s1.eda.ru/StaticContent/Photos/120131082933/140915120914/p_O.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: #bcbcbc;
+    margin-top: 50px;
+}
+
+
+
+/* ==================>  <================== */
+.nav_bar_flex {
+    display: none;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar a:not(:last-child) {
+    margin-right: 14px;
+}
+
+.light {
+    background-color: #e41b47;
+}
+
+.navbar>.container {
+    display: flex;
+    justify-content: center;
+}
+
+.header_home {
+    display: none;
+}
+
+.header_basket {
+    display: none;
+}
+
+
+@media (max-width: 991px) {
+    .navbar>.container {
+        justify-content: flex-start;
+    }
+    .header_home {
+        margin-left: 25px;
+        display: block;
+    }
+    .bar_header_home {
+        display: none;
+    }
+    .bar_header_basket {
+        display: none;
+    }
+    .header_basket {
+        display: block;
+    }
+    .nav_bar_flex {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 20px 0 20px;
+    }
+}
+
+.toggle {
+    display: flex;
+}
+
+.navbar a{
+    padding: 15px 0 15px 0;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.top_header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.content {
+    padding-top: 70px;
+}
+
+.menu_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: #e41b47;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    margin-left: 15px;
+}
+
+.call_center {
+    display: flex;
+}
+
+.navbar a:hover {
+    color: rgb(255, 244, 91)
+}
+
+
+body {
+    background-color: #e4e4e4;
+}
+
+/* ==================> Pizza <================== */
+.pizza {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content_pizza {
+    position: relative;
+    border: 1px solid none;
+    border-radius: 15px;
+    width: 300px;
+    margin: 15px;
+    background-color: #ffffff;
+    transition: .4s;
+}
+
+.content_pizza:hover {
+    box-shadow: 15px 15px 25px rgb(146, 146, 146);
+}
+
+.content_pizza img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 300px;
+}
+
+.content_pizza .information {
+    padding: 30px 30px 100px;
+}
+
+.content_pizza h4 {
+    margin-top: 15px;
+}
+
+.buy {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 20px;
+    left: 30px;
+    width: 240px;
+}
+
+.buy span {
+    font-size: 24px;
+}
+
+.buy div {
+    cursor: pointer;
+    padding: 15px;
+    background-color: #e41b47;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.buy div:hover {
+    background-color: #af2946;
+}
+
+
+
+/* ==================> Basket <================== */
+
+.basket_pizza {
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    transition: .4s;
+    margin: 15px 0 15px 0;
+    padding: 0;
+}
+
+.basket_pizza:hover {
+    box-shadow: 15px 15px 25px rgb(146, 146, 146);
+}
+
+.basket_pizza img {
+    width: 350px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.basket_pizza .information {
+   padding: 15px 0 15px 15px;
+}
+
+.information span {
+    cursor: pointer;
+    
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* ==================> show Alert <==================*/
+
+.show_alert_text {
+    position: fixed;
+    background-color: rgb(245, 248, 77);
+    padding: 25px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.show_alert_text_active {
+    background-color: rgb(113, 255, 137);
+}
+
+.postList_title_text span{
+    font-weight: 600;
+}
+
+.home_menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* ==================> footer <================== */
+footer {
+    background-color: #e41b47;
+    width: 100%;
+}
+
+.footer_flex {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.footer_flex div:not(:first-child) {
+    margin-left: 15px;
+}
+
+.footer_flex div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+/* ==================> form <================== */
+
+form input {
+    z-index: 100;
+}
+
+form button {
+    z-index: 100;
+}
+
+.modal_wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 150px;
+    right: 0;
+    bottom: 0;
+}
+
+.modal-window {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.modal-window::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+  
+}
+
+.form_btn_close {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    border: none;
+    z-index: 100;
+    cursor: pointer;
+  }
+  .form_btn_close:hover {
+    opacity: 1;
+  }
+  .form_btn_close:before, .form_btn_close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+  }
+  .form_btn_close:before {
+    transform: rotate(45deg);
+  }
+  .form_btn_close:after {
+    transform: rotate(-45deg);
+  }
+
+.modal-window h3 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.modal-window input {
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+.form_btn_design {
+    background-color: #e41b47;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+
+
+/* ==================> admin <================== */
+.admin_content {
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    transition: .4s;
+    margin-top: 15px;
+    padding: 0;
+    flex-direction: column;
+    padding: 30px 30px;
+}
+
+.admin_content .form_btn_close {
+    right: 25px;
+}
+
+.admin_content:hover {
+    box-shadow: 15px 15px 25px rgb(146, 146, 146);
+}
+
+.admin_content span {
+    font-weight: 600;
+}
+
+.admin_task_work {
+    background-color: rgb(217, 226, 132);
+}
+
+.the_total_cost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.the_total_cost button {
+    background-color: #e41b47;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.admin_content_position {
+    border-top: 1px solid black;
+    margin-top: 15px;
+}
